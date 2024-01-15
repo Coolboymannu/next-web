@@ -1,11 +1,12 @@
-// next.config.js
 /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    output: 'export',
-    // Other configurations...
-  };
-  
-  module.exports = nextConfig;
-  
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  assetPrefix: './',
+};
+
+export default nextConfig;
